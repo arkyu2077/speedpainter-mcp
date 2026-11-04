@@ -1,0 +1,28 @@
+{
+  "name": "arkyu2077/speedpainter",
+  "description": "Official PHP SDK & MCP integration helper for SpeedPainter \u2014 AI Whiteboard Video Maker & Hand-Drawn Sketch Animation Generator (https://www.speedpainter.org/en)",
+  "type": "library",
+  "homepage": "https://www.speedpainter.org/en",
+  "license": "MIT",
+  "keywords": [
+    "speedpainter",
+    "whiteboard-video",
+    "explainer-video",
+    "speedpaint",
+    "sketch-animation",
+    "mcp"
+  ],
+  "authors": [
+    {
+      "name": "SpeedPainter Team",
+      "homepage": "https://www.speedpainter.org/en"
+    }
+  ],
+  "support": {
+    "docs": "https://www.speedpainter.org/en/explainer-video",
+    "source": "https://github.com/arkyu2077/speedpainter-mcp"
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}

@@ -1,0 +1,8 @@
+site_name: SpeedPainter — AI Whiteboard Video Maker & Sketch Animation Docs
+site_url: https://www.speedpainter.org/en
+repo_url: https://github.com/arkyu2077/speedpainter-mcp
+site_description: Official developer & workflow documentation for SpeedPainter (speedpainter.org/en) — AI Speedpaint Generator, Sketch Drawing Animation, and Narrated Whiteboard Explainer Video Maker.
+nav:
+  - Home & Overview: index.md
+  - AI Whiteboard Explainer Video Maker: explainer-video.md
+  - Sketch Trajectory & MCP Automation: mcp-automation.md

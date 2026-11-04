@@ -1,0 +1,37 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "SpeedPainter AI Whiteboard Video Maker & Sketch Animation API",
+    "version": "1.0.0",
+    "description": "Convert static images and text scripts into hand-drawn sketch animations (https://www.speedpainter.org/en) and narrated whiteboard explainer videos (https://www.speedpainter.org/en/explainer-video).",
+    "contact": {
+      "name": "SpeedPainter Support",
+      "url": "https://www.speedpainter.org/en"
+    },
+    "x-logo": {
+      "url": "https://www.speedpainter.org/favicon.ico"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.speedpainter.org/v1"
+    }
+  ],
+  "externalDocs": {
+    "description": "SpeedPainter AI Explainer Video Maker",
+    "url": "https://www.speedpainter.org/en/explainer-video"
+  },
+  "paths": {
+    "/explainer-video": {
+      "post": {
+        "summary": "Generate a narrated whiteboard explainer video from script or image",
+        "operationId": "generateExplainerVideo",
+        "responses": {
+          "200": {
+            "description": "Rendered MP4/GIF animation URL"
+          }
+        }
+      }
+    }
+  }
+}
